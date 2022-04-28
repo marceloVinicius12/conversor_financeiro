@@ -12,9 +12,31 @@
         <title>converso financeiro</title>
     </head>
     <body>
-            <h1>conversor financeiro</h1>
+        <div class="container">
+            <div class="row">
+            <div class="col">
+            <h1 class="titulo mt-5 text-center" id="titulo">Conversor Financeiro 💲</h1>
+        </div>
+            </div>
+        <div class="row mt-5">
+        <div class="col-6 col-md-6 col-lg-6 text-center">
+            <label for="valor" id="label">valor em reais</label><br>
+            <input type="number" id="valorReais" class="valorReais" min="0">
+        </div>
+            <div class="col-6 col-md-6 col-lg-6 text-center">
+                <label for="valor" id="label">valor em dolares</label><br>
+                <input type="number" id="valorDolares" class="valorDolares" disabled>
+            </div>
+        </div>
+        <div class="row mt-5">
+        <div class="col-12 col-md-12 text-center">
+            <button type="button" class="btn btn-success btn-lg text-center text-light">Calcular</button>
+        </div>
+        </div>
+        </div>
         <script src="/node_modules/jquery/dist/jquery.js"></script>
-        <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
         <script src="js/app.js"></script>
     </body>
+  
 </html>
