@@ -1,7 +1,7 @@
 function ConverterRealDolar (){
 let real = document.querySelector('#valorReais').value
 let dolar = 4.92
-let api = 'https://economia.awesomepi.com.br/last/USD'
+let api = 'https://economia.awesomeapi.com.br/last/USD'
 let somaPadrao = real / dolar
 $.ajax({
     type:"GET", 
