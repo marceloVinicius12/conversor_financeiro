@@ -16,23 +16,24 @@
         </div>
             </div>
         <div class="row mt-5">
-        <div class="col-6 col-md-6 col-lg-6 text-center">
+        <div class="col-12 col-md-6 col-lg-6 text-center">
             <label for="valor" id="label">valor em reais</label><br>
-            <input type="number" id="valorReais" class="valorReais" min="0">
+            <input  id="valorReais" class="valorReais" >
         </div>
-            <div class="col-6 col-md-6 col-lg-6 text-center">
+            <div class="col-12 col-md-6 col-lg-6 text-center">
                 <label for="valor" id="label">valor em dolares</label><br>
-                <span  id="valorDolares" class="valorDolares"></span>
+                <input  id="valorDolares" class="valorDolares"></input>
             </div>
         </div>
       <div class="col-md-12 col-12 text-center mt-5">
         <span id="texto"></span>
     </div>
         <div class="row mt-5">
-        <div class="col-12 col-md-12 text-center">
-         
-            <button type="button" class="btn btn-success btn-lg text-center text-light" onclick="ConverterRealDolar()">Calcular</button>
+        <div class="col-6 col-md-6 text-center">
+            <button type="button" class="btn btn-success btn-lg text-center text-light" onclick="ConverterRealDolar()">real para dolar</button>
         </div>
+        <div class="col-6 col-md-6 text-center">
+        <button type="button" class="btn btn-primary btn-lg text-center text-light" onclick="inverterValores()" >dolar para real</button>
         </div>
     
         </form>

@@ -11,7 +11,7 @@
 #valorReais,
 #valorDolares{
 border: 0;
-border-bottom: 3px solid black;
+border-bottom: 0.2em solid black;
 }
 #label{
     font-size: 1.2em;
@@ -19,5 +19,4 @@ border-bottom: 3px solid black;
 }
 #texto{
   font-size: 1em;
-  
 }
