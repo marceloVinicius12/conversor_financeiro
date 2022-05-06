@@ -1,7 +1,6 @@
 function ConverterRealDolar (){
 let real = document.querySelector('#valorReais').value
 let dolar = 4.92
-
 let api = 'https://economia.awesomeapi.com.br/last/USD'
 $.ajax({
     type:"GET", 
@@ -13,7 +12,8 @@ $.ajax({
     }),
     beforeSend: (function (){
         console.log("processando")
-    })
+    })  
 })
+document.querySelector('#texto').innerHTML = 'valor convertido com a contação do Dolar atual que é no valor  de  ' + dolar
 
 }
